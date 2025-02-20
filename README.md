@@ -24,5 +24,5 @@ python keylogger.py
 5. In order to end the script, the user can press the "Esc" key.
 
 ## Disclaimer
-This software is for educational and research purposes only. Unauthorized use of keyloggers may violate privacy laws and terms of service. The author holds no responsibility for any misuse of this tool.
+This software is for educational and research purposes only. Unauthorized use of keyloggers may violate privacy laws and terms of service.
 
