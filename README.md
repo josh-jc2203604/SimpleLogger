@@ -1,6 +1,6 @@
 # KeyLogger
 
-KeyLogger is a simple keylogging program developed in Python for educational purposes only. This project was created to understand how malicious software operates and to improve security awareness. **It is not intended for any unethical or illegal use.**
+This is a simple keylogging program developed in Python for educational purposes only. This project was created to understand how malicious software operates and to improve security awareness. **It is not intended for any unethical or illegal use.**
 
 ## Features
 - Logs keystrokes and saves them to a `keylog.txt` file.
